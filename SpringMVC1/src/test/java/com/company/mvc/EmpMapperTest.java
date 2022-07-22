@@ -19,20 +19,17 @@ public class EmpMapperTest {
 	@Autowired EmpMapper mapper;
 	
 	@Test
-	public void test() {
-		EmpVO param = new EmpVO();
-		param.setEmployeeId("100");
-		Map<String, Object> result = mapper.getEmp(param);
-		System.out.println(result);
-		System.out.println(result.get("FIRST_NAME")); // 첫번째 이름만 나오게 하는것
-	}
-	
-	@Test
-	   public void list() {
-		EmpVO param = new EmpVO();
-		//param.setEmployeeId("30");
-	    List<EmpVO> result = mapper.getEmpList(param);
-	      System.out.println(result);
+	 public void test() {
+	      EmpVO param = new EmpVO();
+	      param.setEmployeeId("100");
 	   }
+	
+//	@Test
+//	   public void list() {
+//		EmpVO param = new EmpVO();
+//		//param.setEmployeeId("30");
+//	    List<EmpVO> result = mapper.getEmpList(param);
+//	      System.out.println(result);
+//	   }
 	
 }

@@ -9,9 +9,9 @@
 <body>
 <h3>사원정보</h3>
 <ul>
-<li>${emp.employee_id }
-<li>${emp.first_name }
-<li>${emp.last_name }
+<li>${emp.employeeId }
+<li>${emp.firstName }
+<li>${emp.lastName }
 </ul>
 </body>
 </html>

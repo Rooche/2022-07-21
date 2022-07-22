@@ -1,6 +1,8 @@
 package com.company.mvc.emp;
 
 
+import java.sql.Date;
+
 import lombok.Data;
 
 @Data
@@ -9,12 +11,9 @@ public class EmpVO {
 	private String firstName;
 	private String lastName;
 	private String email;
-	private String hireDate;
+	private Date hireDate;
 	private String jobId;
 	private String salary;
-	private String department_id;
-	private String department_name;
-	private String manager_id;
-	private String location_id;
+	private String departmentId;
 	
 }
